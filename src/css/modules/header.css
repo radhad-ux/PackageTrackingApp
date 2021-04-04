@@ -1,0 +1,8 @@
+.header {
+    background-color: var(--green);
+    text-align: center;
+}
+
+.header .logo {
+    max-width: 7rem;
+}
