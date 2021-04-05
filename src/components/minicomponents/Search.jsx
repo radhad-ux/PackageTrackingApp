@@ -18,14 +18,17 @@ const searchByName = (event) => {
 
 return (
     <section className="search">
+        <div className="background-image">   
+        
     <div className="intro-text">
         <h1>
         Track your <br />
         package
         </h1>
         <p>
-        Are you expecting a delivery? Cool! <br />
-        Fill in your package ID below
+        Experience the best service ever! <br />
+        <br/>
+        Enter your name to track your package
         </p>
     </div>
 
@@ -33,9 +36,9 @@ return (
 
         <div className="forms">
         <form type="submit">
-        <label>Name:</label>
-        <input
-            placeholder="John Doe"
+        <label>Enter Name:</label>
+        <input type="text"
+            placeholder="Jhon Doe"
             value={name}
             onChange={(event) => setName(event.target.value)}
         />
@@ -43,9 +46,11 @@ return (
             className="search-button"
             type="submit"
             onClick={(event) => searchByName(event)}>
-            Track
+                Track
+            
         </button>
         </form>
+        </div>
         </div>
         </section>
 );

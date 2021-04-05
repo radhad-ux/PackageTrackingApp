@@ -1,8 +1,26 @@
-.header {
+/* .header {
     background-color: var(--green);
     text-align: center;
 }
 
 .header .logo {
     max-width: 7rem;
+} */
+
+.header{
+padding: 10px;
+  text-align: center;
+  background:#f5f1be;
+  font-size: 1.6rem;
+  font-family: "sans-serif";
+  text-shadow: 2px 2px orange;
 }
+header .logo {
+    max-width: 7rem;
+} 
+.main-text{
+    font-family: "sans-serif";
+    font-size: 3rem;
+    margin-bottom: var(--medium-space);
+    text-align: center;
+}   

@@ -1,9 +1,9 @@
 .footer {
-    background-color: var(--green);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: var(--smaller-space);
     justify-items: center;
+    background:#f5f1be;
 }
 
 .footer h3,
