@@ -1,0 +1,45 @@
+.search {
+  height: 100%;
+  text-align: center;
+  display: grid;
+  align-items: start; 
+}
+
+.search h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 3rem;
+  margin-bottom: var(--medium-space);
+  text-align: center;
+}
+
+.search form {
+  display: grid;
+  justify-items: center;
+}
+
+.search p {
+  font-size: 1.3rem;
+  margin-bottom: var(--small-space);
+  text-align: center;
+}
+
+
+.search label {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--blue);
+  margin-bottom: var(--medium-space);
+  text-align: center;
+}
+
+.search input {
+  border-radius: 3rem;
+  border: none;
+  background-color: var(--green);
+  height: 2.5rem;
+  width: 13rem;
+  outline: none;
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: var(--smaller-space);
+}
