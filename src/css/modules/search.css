@@ -5,11 +5,27 @@
   align-items: start; 
 }
 
+.background-image{
+  /*background: url("../../assets/backimg.jpg") center center/cover no-repeat;*/
+  background: rgb(144, 245, 245);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+
+}
+
 .search h1 {
   font-family: "Space Grotesk", sans-serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin-bottom: var(--medium-space);
   text-align: center;
+  height: 14rem;
+  color: maroon;
 }
 
 .search form {
@@ -18,28 +34,33 @@
 }
 
 .search p {
-  font-size: 1.3rem;
+  font-size: 2rem;
   margin-bottom: var(--small-space);
   text-align: center;
+  height: 13rem;
+  color:lightblack;
+  
 }
 
 
 .search label {
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: 700;
-  color: var(--blue);
+  color: darkblue;
   margin-bottom: var(--medium-space);
   text-align: center;
+
 }
 
 .search input {
   border-radius: 3rem;
   border: none;
-  background-color: var(--green);
-  height: 2.5rem;
+  background-color: var(--blue);
+  height: 2.9rem;
   width: 13rem;
   outline: none;
   text-align: center;
   font-size: 1.6rem;
   margin-bottom: var(--smaller-space);
+  color: red;
 }

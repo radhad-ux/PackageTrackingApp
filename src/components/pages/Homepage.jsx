@@ -1,5 +1,6 @@
 import React from "react";
-import Search from "../minicomponents/Search"
+import Search from "../minicomponents/Search";
+
 
 
 const Homepage = () => {
