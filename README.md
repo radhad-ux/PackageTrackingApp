@@ -40,7 +40,7 @@ You will also see any lint errors in the console.
 
 This is how the result page looks after you run the application.
 
-![resultpage](screenshots/resultpage.jpg)
+![resultpage](ScreenShots/resultpage.jpg)
 
 ## Learn More
 
