@@ -3,9 +3,8 @@ import Item from "../minicomponents/Item";
 
 
 const ResultsPage = ({  parameter, information }) => {
-  //If it is a number, we want to find the package with this unique id
+
     const filteredItems = information.filter((item) => {
-    //return parseInt(parcel.parcel_id) === parseInt(parameter);
     return (item.user_name)===(parameter)});
     console.log(filteredItems)
    

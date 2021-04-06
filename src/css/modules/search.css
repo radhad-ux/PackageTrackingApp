@@ -31,7 +31,6 @@
 .search form {
   display: grid;
   justify-items: center;
-  height: 13rem;
 }
 
 .search p {
@@ -50,6 +49,7 @@
   color: darkblue;
   margin-bottom: var(--medium-space);
   text-align: center;
+
 }
 
 .search input {

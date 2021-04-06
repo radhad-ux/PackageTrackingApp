@@ -1,8 +1,7 @@
 import React from "react";
 
 function Item ({parcel_id, status, sender, location_name, eta }) {
-  //Destructuring to use properties of the item
-// const { parcel_id, status, sender, location_name, eta } = data;
+
 
   //use RegEx to format the eta fetched from API
 /*const formatETA = (eta) => {
@@ -15,37 +14,7 @@ function Item ({parcel_id, status, sender, location_name, eta }) {
 return (
     <article className="info">
       
-    {/* <div className="left">
-        <span className="signature">
-        
-        <strong>ID: </strong>
-        {parcel_id}
-        </span>
-        <span className="signature"></span>
-        <span>
-        <strong>Status:</strong>
-        {status}
-        </span>
-    </div>
-      
-    <div className="right">
-        <span className="signature"></span>
-        <span>
-        <strong>ETA:</strong>
-        {eta}
-        </span>
-        <span className="signature"></span>
-        <span>
-        <strong>Sender:</strong>
-         {sender}
-        </span>
-        <span className="signature"></span>
-        <span>
-        {" "}
-        <strong>Location:</strong>
-         {location_name}
-        </span>
-    </div> */}
+    
     <table>
                     <tbody>
                         <tr>

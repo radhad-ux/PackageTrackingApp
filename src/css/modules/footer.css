@@ -5,7 +5,11 @@
     justify-items: center;
     background:#f5f1be;
 }
-
+.footer h2{
+    font-family: "sans-serif";
+    font-size: 1.4rem;
+    text-shadow: 2px 2px pink;
+}
 .footer h3,
 .footer a {
     margin-bottom: var(--tiny-space);
