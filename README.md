@@ -19,7 +19,12 @@ The Result page is where the packages are displayed.
 
 # User Guide
 
-The application was built using react modules and components. The "react-router-dom" was installed to allow routing between the pages.
+The application was built using react modules and components. 
+The "react-router-dom" was installed to allow routing between the pages using the command:
+
+### `npm install react-router-dom`
+
+
 The app fetches information from the mock server using the end point https://my.api.mockaroo.com/orders.json?key=e49e6840.
 The endpoint provides package objects only with one user name which is "Jhon Doe".
 So to access all the packages we use Jhon Doe name.
